@@ -21,7 +21,7 @@ body {
     overflow: hidden;
     flex-direction: column;
     border-radius: 5px;
-    background-color: #a1d41e;
+    background-color: #7fa71a;
 }
 
 
@@ -42,10 +42,19 @@ body {
     grid-template: repeat(30, 1fr) / repeat(30, 1fr);
 }
 
+
 .gameBoard .food{
     background: #ff003d;
 }
 
 .gameBoard .snakeHead{
     background: #000000;
+}
+
+.gameBoard .gameOverText{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    right: 15%;
 }
